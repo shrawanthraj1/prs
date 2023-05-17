@@ -11,5 +11,5 @@ services:
     image: sraj1/paytmbill:v1
     ports:
       - 8001:80
-    deploy:
+    deploy: null
       - replicas: 2
