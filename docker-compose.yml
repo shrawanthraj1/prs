@@ -5,11 +5,7 @@ services:
     image: sraj1/paytmcric:v1
     ports:
       - 8000:80
-    deploy:
-      - replicas: 2
   bill:
     image: sraj1/paytmbill:v1
     ports:
       - 8001:80
-    deploy:
-      - replicas: 2
